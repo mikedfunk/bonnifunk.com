@@ -8,17 +8,34 @@
 
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.0/simplex/bootstrap.min.css">
+<link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
 
 </head>
 <body>
 
-<div class="container">
-  <div class="jumbotron">
+<div class="jumbotron">
+  <div class="container">
+    <div class="avatar-image hidden-xs"></div>
     <h1>{{ site.name }}</h1>
     <h2>{{ site.subtitle }}</h2>
-  </div><!--jumbotron-->
+  </div><!--container-->
+</div><!--jumbotron-->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <ul class="nav navbar-nav">
+      <li><a href="{{ site.url }}/">Home</a></li>
+      <li><a href="{{ site.url }}/about.html">About</a></li>
+      <li><a href="{{ site.url }}/contact.html">Contact</a></li>
+    </ul>
+  </div><!--container-->
+</nav><!--navbar-->
+<div class="container">
   {{ content }}
 </div><!--container-->
 
+<footer>
+  <hr>
+  <div class="container"><p>@2014 Bonni Funk. All Rights Reserved.</p></div><!--container-->
+</footer>
 </body>
 </html>

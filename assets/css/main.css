@@ -1,0 +1,17 @@
+.jumbotron {
+    background: url('/assets/img/sunset.jpg') 0 0;
+    margin-bottom: 0;
+}
+.jumbotron {
+    color: white;
+}
+.avatar-image {
+    background: url('/assets/img/bonni.jpg');
+    float: left;
+    margin-right: 50px;
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
