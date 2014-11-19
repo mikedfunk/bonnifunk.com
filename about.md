@@ -17,5 +17,6 @@ My specialties include:
 * Boundaries problems
 * Codependency (enabling, rescuing behaviors)
 * Parent education
+* Women's issues
 
 I also provide Christian counseling upon request.
