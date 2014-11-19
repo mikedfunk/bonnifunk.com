@@ -1,4 +1,4 @@
 name: Bonni Funk
 subtitle: Licensed Mental Health Counselor
 markdown: redcarpet
-pygments: false
+highlighter: false
